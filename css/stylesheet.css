@@ -52,7 +52,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: url(/assets/green-chameleon-WvuTnXz1hSc-unsplash.jpg);
+    background-image: url(assets/green-chameleon-WvuTnXz1hSc-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
