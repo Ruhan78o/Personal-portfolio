@@ -125,6 +125,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width:550px ;
 }
 .projects{
     max-width:250px;
@@ -132,7 +133,7 @@ section{
 
 }
 .projects img{
-    max-width: 30%;
+    max-width: 100%;
 
 }
 
