@@ -45,7 +45,7 @@ nav A{
 
 
 body{
-    background-color: #ffc482; /*#2b303a #d64933 #2d0320  */
+    background-color: #979595; /*#2b303a #d64933 #2d0320  */
     font-family:'benne'; sans-serif;
     margin: 0px;
 }
@@ -71,6 +71,7 @@ header::after{
     right: 0;
     bottom:0;
     opacity: 0.7;
+    font-size: 60px;
 }
 
 header * {
@@ -87,8 +88,8 @@ header h1{
 }
 
 header p{
-    font-size: 30px;
-    margin: 0;
+    font-size:100px;
+    margin: ;
 
 }
 
@@ -125,15 +126,25 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width:650px ;
+    max-width:250px ;
+    margin:10px auto 0;
+    border-radius: 50px;
+    border: 8px solid #cfffe5;
+    border-left: 20px;
+    border-right: 20px;
+    border-top: 20px;
+   
 }
 .projects{
-    max-width:250px;
+    max-width:600px;
     margin: 10px;
 
 }
 .projects img{
-    max-width: 100%;
+    margin-top: -20px;
+    border-radius: 8px;
+    border: 8px solid #cfffe5
+    max-width:100%;
 
 }
 
@@ -149,6 +160,9 @@ section h2{
 
 section p{
     margin-top: -10px;
+    font-family: 'Dancing script'; sans-serif;
+    font-size: 25px;
+    text-decoration: ul;
 }
 
 .bg_deep_space_sparkle{
